@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="nav_script.js" defer></script>
+    <link rel="stylesheet" href="model.css">
+    <script src="model.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo">
+                <!-- change the name of logo according to your name of image (mani/vengu) -->
+                <a href="#"><img src="logo.png" alt="Placeme Logo" style="height: 30px;"></a>
+            </li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Jobs</a></li>
+            <li class="item"><a href="#">Notifications</a></li>
+            <li class="item"><a href="#">Profile</a></li>
+            <li class="toggle" id="menu-toggle"><span class="bars"></span></li>
+            <li class="item button"><a href="#">Log In</a></li>
+            <li class="item">
+                <select name="Usertypes">
+                    <option value="Job Seeker">Job Seeker</option>
+                    <option value="Recruiter">Recruiter</option>
+                    <option value="Administrator">Administrator</option>
+                    <option value="Refer and earn">Refer and earn</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+        <main>
+            <div class="profile-container">
+                
+                <div class="profile-content">
+                    <div class="profile-picture-header">              
+                    <div class="profile-picture">
+                        <img src="image.png" alt="profile pic" width="100%">
+                    </div>
+                    <div class="username"><h3>qwerty poiuy</h3></div>
+                    <div class="qualification">Student of Anna University</div>
+                    </div>
+                    <div class="profile-section">
+                        <div class="profile-content-title">
+                            <h3>Personal Info</h3>
+                            <div>
+                                <a href="#" id="openModalButton"><i class='bx bx-pencil edit'></i></a>
+                            </div>
+
+                        </div>
+                        <div class="margin20">
+                        <div class="info">
+                            <div><b>Email</b><p>qwertyhjgndjsn@gmail.com</p></div>
+                            <div><b>D.O.B</b><p>31-12-2024</p></div>
+                            <div><b>Phone No</b><p>9898989898</p></div>
+                            <div><b>Gender</b><p>Male</p></div>
+                            <div><b>Location</b><p>K.K Nagar, Chennai, Tamil Nadu</p></div>
+                        </div>
+                        </div>
+                    </div>
+        
+                    <div class="profile-section">
+                        <div class="profile-content-title">
+                            <h3>Education</h3>
+                            <div>
+                                <a href="#" id="openModalButton2"><i class='bx bx-plus edit'></i></a>
+                                <a href="#" id="openModalButton"><i class='bx bx-pencil edit'></i></a>
+                            </div>
+                        </div>
+                        <div class="margin20">
+                        <div class="education-item">
+                            <div class="degree">
+                                <b class="university">Anna University</b>
+                                <p class="stream">Master’s degree in Information Technology</p>
+                            </div>
+                            <div class="date">
+                                <p>May 2025</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="degree">
+                                <b class="university">MIT University</b>
+                                <p class="stream">Bachelor’s degree in Information Technology</p>
+                            </div>
+                            <div class="date">
+                                <p>May 2022</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="degree">
+                                <b class="university">VIIT University</b>
+                                <p class="stream">Diploma courses in Computer Science</p>
+                            </div>
+                            <div class="date">
+                                <p>May 2019</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+        
+                    <div class="profile-section">
+                        <div class="profile-content-title">
+                            <h3>Skills</h3>
+                            <div>
+                                <a href="#" id="openModalButton2"><i class='bx bx-plus edit'></i></a>
+                                <a href="#" id="openModalButton"><i class='bx bx-pencil edit'></i></a>
+                            </div>
+                        </div>
+                        <div class="skills margin20">
+                            <span>React</span>
+                            <span>Node</span>
+                            <span>SQL</span>
+                            <span>Django</span>
+                            <span>Data Structures and Algorithms</span>
+                            <span>Angular</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>CSS</span>
+                            <span>Java Script</span>
+                        </div>
+                    </div>
+        
+                    <div class="profile-section">
+                        <div class="profile-content-title">
+                            <h3>Experience</h3>
+                            <div>
+                                <a href="#" id="openModalButton2"><i class='bx bx-plus edit'></i></a>
+                                <a href="#" id="openModalButton"><i class='bx bx-pencil edit'></i></a>
+                            </div>
+                        </div>
+                        <div class="margin20">
+                        <div class="education-item">
+                            <div class="degree">
+                                <b class="university">Web developer</b>
+                                <p class="stream">ABC Company Pvt Ltd</p>
+                            </div>
+                            <div class="date">
+                                <p>May 2023</p>
+                                <p>Internship</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="degree">
+                                <b class="university">Web Designer</b>
+                                <p class="stream">ABC Company Pvt Ltd</p>
+                            </div>
+                            <div class="date">
+                                <p>May 2024</p>
+                                <p>Part-time</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+        
+                    <div class="profile-logout">
+                        <a class="logout">Logout</a>
+                    </div>
+                </div>
+            </div>
+
+  
+        </main>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                  
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h3 class="modal-title">Edit Personal Info</h3>
+                          <button type="button" class="btn-close" id="closeModalButton"><i class='bx bx-x edit'></i></button>
+                        </div>
+                  
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                        <div class="margin20">
+                        <div class="">
+                            <div><b>Email</b><p>qwertyhjgndjsn@gmail.com</p></div>
+                            <div><b>D.O.B</b><p>31-12-2024</p></div>
+                            <div><b>Phone No</b><p>9898989898</p></div>
+                            <div><b>Gender</b><p>Male</p></div>
+                            <div><b>Location</b><p>K.K Nagar, Chennai, Tamil Nadu</p></div>
+                        </div>
+                        </div>
+                        </div>
+                  
+                        <!-- Modal Footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-save" id="">Save</button>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+  
+
+        <footer>
+            <div class="footer-content">
+                <span>© 2024 Placeme</span>
+                <a href="#">Terms</a>
+                <a href="#">Privacy Centre and Ad Choices</a>
+            </div>
+        </footer>
+</body>
+</html>
